@@ -15,7 +15,7 @@ Prometheus monitoring is fast becoming one of the Docker and Kubernetes monitori
 
 This guide is comprised of four parts:
 
-**1 - **(this one)
+**1 -** (this one)
 
 *   [Intro to Prometheus and its core concepts][1]
 *   [How Prometheus compares to other monitoring solutions][2]
@@ -27,11 +27,11 @@ This guide is comprised of four parts:
     *   [Kube State Metrics][8]
 *   [Kubernetes internal components][9] 
 
-**2 - **[How to configure and run additional components of the Prometheus stack inside Kubernetes: Alertmanager, Push gateway, Grafana, external storage, alert receivers.][10]
+**2 -** [How to configure and run additional components of the Prometheus stack inside Kubernetes: Alertmanager, Push gateway, Grafana, external storage, alert receivers.][10]
 
-**3 - **The Prometheus operator, Custom Resource Definitions, fully automated Kubernetes deployment for Prometheus, AlertManager and Grafana.
+**3 -** The Prometheus operator, Custom Resource Definitions, fully automated Kubernetes deployment for Prometheus, AlertManager and Grafana.
 
-**4 - **Prometheus performance considerations, high availability, external storage, dimensionality limits. [tweet_box design="default" float="none"]Monitor your #Kubernetes cluster using #Prometheus, build the full stack covering Kubernetes cluster components, deployed microservices, alerts and dashboards (1/4).[/tweet_box] 
+**4 -** Prometheus performance considerations, high availability, external storage, dimensionality limits. [tweet_box design="default" float="none"]Monitor your #Kubernetes cluster using #Prometheus, build the full stack covering Kubernetes cluster components, deployed microservices, alerts and dashboards (1/4).[/tweet_box] 
 
 ### Why Use Prometheus for Kubernetes Monitoring {#whyuseprometheusforkubernetesmonitoring}
 
