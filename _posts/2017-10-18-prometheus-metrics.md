@@ -110,6 +110,7 @@ First, if you haven’t done it already, install the python Prometheus library:
 And execute this trivial python script (but enough to see metric labels and histograms in action)
 
 <script src="https://gist.github.com/mateobur/4bfb70bbd463e2a5f56b82e6a44a2063.js"></script> You can just display the raw Prometheus data accessing `http://localhost:9100`: 
+
     ....
     # HELP python_info Python platform information
     # TYPE python_info gauge
