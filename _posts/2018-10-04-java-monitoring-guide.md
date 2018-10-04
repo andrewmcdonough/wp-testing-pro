@@ -73,6 +73,8 @@ The stack itself is split into different regions: **permanent generation** and *
   </div>
 </div>
 
+
+
 ##### Permanent generation
 
 The permanent generation region of the stack contains metadata required by the JVM to describe classes and methods used in the application. When a class is loaded, the permanent generation is populated with it and its methods. This region is also included in a full garbage collection because when a Classloader dies all its classes must be unloaded.
