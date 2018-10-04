@@ -19,6 +19,8 @@ When working on a big Java application, it's likely that something will eventual
 
 This is the first chapter of the "Ultimate guide to monitoring Java inside Docker and Kubernetes". We will cover how to monitor **Java JRE** heap memory usage, threads, memory leaks, and, also, **Java Management Extensions (JMX) metrics** using JConsole, VisualVM, JMXTerm, JMXTrans, and Prometheus in the context of container microservices, **Docker** images, and **Kubernetes** pods.
 
+[tweet_box design="default" float="none"]Testing if the tweetdis works[/tweet_box]
+
 We also packed it full of practical examples so you can see how efficient and effective Docker and Kubernetes monitoring and troubleshooting are when using Sysdig, Csysdig, Sysdig Inspect, and Sysdig Monitor.
 
 Stay tuned for future chapters of our "Ultimate guide to monitoring Java inside Docker and Kubernetes", which will include:
