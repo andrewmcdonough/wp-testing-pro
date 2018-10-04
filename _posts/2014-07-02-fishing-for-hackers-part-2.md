@@ -109,6 +109,8 @@ All shells:
 
 Quite a lot of activity! 38 sessions, to be precise. We know one of them contains a successful hacker penetration, but which one is it?
 
+This post has been edited.
+
 list_login_shells has two optional parameters. The first one makes it possible to search for sessions that contain the specified command name, while the second one does the same but with the command arguments.
 
 In the context of detecting attacks, interesting sessions tend to contain commands like ssh and wget, and arguments that include /etc or /bin. In this case, I’m going to search for the execution of tar, assuming it’s a good indication that someone is trying to install something on my system:
