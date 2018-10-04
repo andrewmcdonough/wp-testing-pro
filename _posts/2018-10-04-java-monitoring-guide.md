@@ -29,6 +29,8 @@ Stay tuned for future chapters of our "Ultimate guide to monitoring Java inside 
 *   Java monitoring in Docker and Kubernetes: troubleshooting java applications and performance issues
 *   Java troubleshooting guide: Fixing a memory leak in Kubernetes
 
+This post has been modified.
+
 Monitoring #Java inside #Docker and #Kubernetes: main memory, garbage collector and threads, basic concepts and metrics to watch.
 
 ## Monitoring Java application performance: Java Runtime Environment metrics and profiling
