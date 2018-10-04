@@ -27,6 +27,8 @@ Instrumenting your application allows you to measure things like:
 
 Prometheus certainly provides a lot of visibility to understand how things are working internally, but to do so requires instrumenting (modifying) your application code.
 
+Example of blog post edit.
+
 Instead of handling the metric calculation and exporting it on your own, the Prometheus monitoring project provides libraries for more than 10 programming languages that you can use to achieve getting application metrics. Don’t think of these libraries as specific for monitoring only with Prometheus, actually they can export metrics to <a href="https://github.com/prometheus/docs/blob/master/content/docs/instrumenting/exporters.md" target="_blank" rel="noopener">different time-series databases</a> like <a href="https://github.com/influxdata/influxdb" target="_blank" rel="noopener">InfluxDB</a>, <a href="http://opentsdb.net/" target="_blank" rel="noopener">OpenTSDB</a> or <a href="https://graphiteapp.org/" target="_blank" rel="noopener">Graphite</a>.
 
 Sysdig Monitor is great at discovering and tagging custom metrics, and like we do with <a href="https://sysdigrp2rs.wpengine.com/blog/how-to-collect-statsd-metrics-in-containers/" target="_blank" rel="noopener">statsd</a> or <a href="https://sysdigrp2rs.wpengine.com/blog/gain-insights-jvms-sysdig-clouds-jmx-metrics/" target="_blank" rel="noopener">JMX</a>, **Sysdig automatically detects Prometheus metrics too!** [tweet_box design="default" float="none"]Sysdig Monitor automatically detects and imports #Prometheus metrics! Scale your monitoring now! Application Performance Monitoring[/tweet_box] 

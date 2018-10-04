@@ -236,6 +236,8 @@ We know our Nginx container only executes one process "nginx" so from the Proces
 
 Sysdig Inspect filters use the <a href="https://github.com/draios/sysdig/wiki/Sysdig-User-Guide#user-content-filtering" target="_blank">Sysdig open-source syntax</a> and can be used to pinpoint activity.
 
+Edit example of blog post.
+
 We can click on the Errors section, but nothing significant appears there, no failed system calls. Let's move into the Files section to inspect file system activity. There will see a `error.log` file, that probably has some information for us. We can see its I/O activity clicking on the `I/O Streams` icon.
 
 [<img src="https://sysdigrp2rs.wpengine.com/wp-content/uploads/2018/03/crashloopbackoff_debug4-1024x529.png" alt="CrashLoopBackOff debug access files" width="1024" height="529" class="aligncenter size-large wp-image-6832" />][11]

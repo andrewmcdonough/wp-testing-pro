@@ -73,6 +73,8 @@ Data encryption at rest using Google Key Management Service as an encryption pro
 
 ### <a href="https://github.com/kubernetes/features/issues/177" target="_blank">#177</a>: Snapshot / restore volume support for Kubernetes (CRD + external controller) (Alpha) {#177httpsgithubcomkubernetesfeaturesissues177snapshotrestorevolumesupportforkubernetescrdexternalcontrolleralpha}
 
+Example blog post editing.
+
 Similar to how API resources `PersistentVolume` and `PersistentVolumeClaim` are used to provision volumes for users and administrators, `VolumeSnapshotContent` and `VolumeSnapshot` API resources can be provided to create volume snapshots for users and administrators. Read more <a href="https://github.com/xing-yang/website/blob/f53fe7ed8bf0ee98a1c45eb67bc505e309fdce0e/content/en/docs/concepts/storage/volume-snapshots.md" target="_blank">about volume snapshots here</a>.
 
 ### <a href="https://github.com/kubernetes/features/issues/561" target="_blank">#561</a>: Topology aware dynamic provisioning (Beta) {#561httpsgithubcomkubernetesfeaturesissues561topologyawaredynamicprovisioningbeta}

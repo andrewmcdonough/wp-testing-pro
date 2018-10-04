@@ -47,6 +47,8 @@ Why Prometheus Is the Right Tool for Containerized Environments
 
 <img src="https://sysdigrp2rs.wpengine.com/wp-content/uploads/2018/08/prom_kubernetes_metrics.png" alt="" width="1061" height="243" class="alignnone size-full wp-image-9694" />
 
+Monitoring prometheus with sysdig is awesome right?
+
 *   **Service discovery:** The Prometheus server is in charge of periodically scraping the targets, so that applications and services don't need to worry about emitting data (metrics are pulled, not pushed). These Prometheus servers have several methods to auto-discover scrape targets, some of them can be configured to filter and match container metadata, making it an excellent fit for ephemeral Kubernetes workloads.
 *   **Modular and highly available components:** Metric collection, alerting, graphical visualization, etc, are performed by different composable services. All these services are designed to support redundancy and sharding.
 
