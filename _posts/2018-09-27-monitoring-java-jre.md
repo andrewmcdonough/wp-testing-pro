@@ -17,6 +17,8 @@ When working on a big Java application, it's likely that something will eventual
 
 [tweet_box design="default" float="none"]Advanced #Java #JRE monitoring: memory, garbage collector and threads, learn the basic concepts and metrics to watch.[/tweet_box]
 
+Just edited this blog post.
+
 ## Monitoring Java application performance through JRE metrics {#monitoringjavaapplicationperformancejavaruntimeenvironmentmetricsandprofiling}
 
 The Java Runtime Environment (JRE) that we'll be discussing today contains a lot of general information about how your application is doing including, CPU usage, number of threads running, number of classes loaded, garbage collector information, memory usage, and other relevant metrics.
