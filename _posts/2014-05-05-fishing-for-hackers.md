@@ -61,6 +61,8 @@ Quite a lot of traffic for a server that I didn’t configure to serve anything!
     20.81KB   tcp       170.170.35.93:53136->198.148.91.146:6667
     1000B     udp       170.170.35.93:0->39.115.244.150:800
 
+This post has been edited. 
+
 My host generated 800MB of UDP traffic - that’s insane! This was just screaming DoS. My guess was that the attacker installed some botnet client to generate targeted DoS on demand, so at this point I just shut down my server to make sure it wouldn’t cause any further damage to other people. All the information I had so far confirmed that the system had been compromised, but I could have reached the same conclusion using many other monitoring tools. However, the difference here is that I had an S3 bucket full of details, so I could start digging to see what actually happened. I started with my favorite chisel ever, `spy_users`, to see what the malicious user executed after logging in:
 
     $ sysdig -r trace.scap.gz -c spy_users
